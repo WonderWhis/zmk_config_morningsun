@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "morningsun.dtsi"
+#include "endless.dtsi"
 
 &default_transform {
 	col-offset = <7>;
