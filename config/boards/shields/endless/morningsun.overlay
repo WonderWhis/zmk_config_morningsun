@@ -6,6 +6,25 @@
 
 #include "endless.dtsi"
 
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
+
+        left_encoder: encoder_left {
+		    compatible = "alps,ec11";
+            a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+            b-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+            steps = <96>;
+		    status = "disabled";
+        };
+        sensors: sensors {
+    		compatible = "zmk,keymap-sensors";
+	    	sensors = <&left_encoder>;
+            triggers-per-rotation = <24>;
+        };
+    };
+
 &kscan0 {
     col-gpios
         = <&pro_micro 20 GPIO_ACTIVE_HIGH>
@@ -18,3 +37,6 @@
         ;
 };
 
+&left_encoder {
+	status = "okay";
+};
