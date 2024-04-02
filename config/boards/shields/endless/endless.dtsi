@@ -36,3 +36,7 @@ default_transform: keymap_transform_0 {
     };
 };
 
+
+&left_encoder {
+    status = "okay";
+};
