@@ -62,5 +62,5 @@
 };
 
 &led_strip {
-    chain-length = <16>;
+    chain-length = <2>;
 };
