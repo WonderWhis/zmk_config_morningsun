@@ -61,3 +61,6 @@
     status = "okay";
 };
 
+&led_strip {
+    chain-length = <17>;
+};
