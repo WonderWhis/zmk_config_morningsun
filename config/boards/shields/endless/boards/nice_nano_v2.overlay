@@ -19,12 +19,6 @@
 	};
 };
 
-/ {
-	chosen {
-		zmk,underglow = &led_strip;
-	};
-};
-
 &left_encoder {
 	status = "okay";
 };
