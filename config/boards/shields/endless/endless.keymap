@@ -47,7 +47,7 @@
 
                 bindings = <&zed_em_kay>;
                 bindings = <
-                        &trans      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6             &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12  &trans  &rgb_ug RGB_TOG
+                        &trans      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6             &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12  &trans  &trans
                         &kp TAB     &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRI    &rgb_ug RGB_SAI     &rgb_ug RGB_HUI     &rgb_ug RGB_EFF     &trans    &trans  &trans  &bt BT_CLR_ALL
                         &kp CAPS    &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRD    &rgb_ug RGB_SAD    &rgb_ug RGB_HUD      &rgb_ug RGB_EFR     &trans    &trans  &trans  &bt BT_SEL 0
                         &kp LSHFT    &trans    &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1
