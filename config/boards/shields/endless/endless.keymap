@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -27,7 +28,7 @@
 
                 bindings = <&zed_em_kay>;
                 bindings = <
-                        &kp ESC    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6             &kp N7   &kp N8    &kp N9    &kp N0    &kp MINUS    &kp EQUAL    &kp BSPC    &kp PG_DN    
+                        &kp ESC    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6             &kp N7   &kp N8    &kp N9    &kp N0    &kp MINUS    &kp EQUAL    &kp BSPC    &mo ADJUST    
                         &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T                            &kp Y    &kp U    &kp I    &kp O    &kp P    &kp LBKT    &kp RBKT    &kp PG_UP         
                         &kp CAPS    &kp A    &kp S    &kp D    &kp F    &kp G                           &kp H    &kp J    &kp K    &kp L    &kp SEMI    &kp APOS    &kp RET    &kp HOME  
                         &kp LSHFT    &kp Z    &kp X    &kp C    &kp V    &kp B                          &kp N    &kp M    &kp COMMA    &kp DOT    &kp FSLH    &kp RSHFT    &kp UP    &kp END  
@@ -47,9 +48,9 @@
                 bindings = <&zed_em_kay>;
                 bindings = <
                         &trans      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6             &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12  &trans  &rgb_ug RGB_TOG
-                        &kp TAB     &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRI    &rgb_ug RGB_SAI     &rgb_ug RGB_HUI     &rgb_ug RGB_EFF     &trans    &trans  &trans  &trans
-                        &kp CAPS    &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRD    &rgb_ug RGB_SAD    &rgb_ug RGB_HUD      &rgb_ug RGB_EFR     &trans    &trans  &trans  &trans
-                        &kp LSHFT    &trans    &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp TAB     &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRI    &rgb_ug RGB_SAI     &rgb_ug RGB_HUI     &rgb_ug RGB_EFF     &trans    &trans  &trans  &bt BT_CLR_ALL
+                        &kp CAPS    &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRD    &rgb_ug RGB_SAD    &rgb_ug RGB_HUD      &rgb_ug RGB_EFR     &trans    &trans  &trans  &bt BT_SEL 0
+                        &kp LSHFT    &trans    &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1
                         &kp LCTRL    &trans    &kp LALT    &bt BT_CLR                                    &bt BT_SEL 0  &trans  &kp RWIN  &trans  &trans  &trans  &trans
                 >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;  
