@@ -5,7 +5,7 @@
 if SHIELD_MORNINGSUN
 
 config ZMK_KEYBOARD_NAME
-	default "endless"
+	default "void"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
