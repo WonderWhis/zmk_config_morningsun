@@ -51,7 +51,7 @@
                         &kp TAB     &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRI    &rgb_ug RGB_SAI     &rgb_ug RGB_HUI     &rgb_ug RGB_EFF     &trans    &trans  &trans  &bt BT_CLR
                         &kp CAPS    &trans    &trans    &trans    &trans    &trans                       &rgb_ug RGB_BRD    &rgb_ug RGB_SAD    &rgb_ug RGB_HUD      &rgb_ug RGB_EFR     &trans    &trans  &trans  &bt BT_SEL 0
                         &kp LSHFT    &trans    &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1
-                        &kp LCTRL    &trans    &kp LALT    &bt BT_CLR                                    &bt BT_SEL 0  &trans  &kp RWIN  &trans  &trans  &trans  &trans
+                        &kp LCTRL    &trans    &kp S    &bt BT_CLR                                    &bt BT_SEL 0  &trans  &kp RWIN  &trans  &trans  &trans  &trans
                 >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;  
         };        
